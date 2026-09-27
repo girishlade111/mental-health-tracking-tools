@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/mental-health-tracking-tools',
   eslint: {
     ignoreDuringBuilds: true,
   },
